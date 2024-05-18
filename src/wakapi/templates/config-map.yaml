@@ -16,7 +16,6 @@ data:
   WAKAPI_TLS_KEY_PATH: "{{ .Values.wakapi_config.server.tls_key_path }}"
   {{- end }}
   WAKAPI_BASE_PATH: "{{ .Values.wakapi_config.server.base_path }}"
-  WAKAPI_PASSWORD_SALT: "{{ .Values.wakapi_config.security.password_salt }}"
   WAKAPI_INSECURE_COOKIES: "{{ .Values.wakapi_config.security.insecure_cookies }}"
   WAKAPI_COOKIE_MAX_AGE: "{{ .Values.wakapi_config.security.cookie_max_age }}"
   WAKAPI_ALLOW_SIGNUP: "{{ .Values.wakapi_config.security.allow_signup }}"
